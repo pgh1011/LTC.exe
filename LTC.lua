@@ -51,7 +51,7 @@ local Deagle = Instance.new("TextButton")
 -- Properties:
 
 LTCexe.Name = "LTC.exe"
-LTCexe.Parent = game:GetService("Players").LocalPlayer:WaitForChild("StarterGui")
+LTCexe.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 LTCexe.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
