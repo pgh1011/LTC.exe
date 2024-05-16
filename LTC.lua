@@ -1,4 +1,4 @@
-local url = loadstring(game:HttpGet("https://pastebin.com/raw/sSPDL3MT"))()
+local url = loadstring(game:HttpGet("https://pastebin.com/raw/83fFNE8t"))()
 if url.status == true then
 
 elseif url.status == "shutdown" then
