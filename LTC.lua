@@ -4,7 +4,7 @@ if url.status == true then
 elseif url.status == "shutdown" then
 	game:Shutdown()
 else
-	game:GetService("Players").LocalPlayer:Kick("Update sorry :(")
+	
 end
 
 local LTCexe = Instance.new("ScreenGui")
