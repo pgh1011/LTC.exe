@@ -1,6 +1,6 @@
 local url = loadstring(game:HttpGet("https://pastebin.com/raw/83fFNE8t"))()
 if url.status == true then
-
+	
 elseif url.status == "shutdown" then
 	game:Shutdown()
 else
@@ -52,7 +52,7 @@ local Deagle = Instance.new("TextButton")
 
 LTCexe.Name = "LTC.exe"
 LTCexe.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
-LTCexe.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LTCexe.ZIndexBehavior = Enum.ZIndexBehavior.Sibling LTCexe.ResetOnSpawn = false
 
 main.Name = "main"
 main.Parent = LTCexe
