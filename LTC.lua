@@ -1,6 +1,7 @@
 local url = loadstring(game:HttpGet("https://pastebin.com/raw/83fFNE8t"))()
 if url.status == true then
 	
+
 elseif url.status == "shutdown" then
 	game:Shutdown()
 else
@@ -695,10 +696,11 @@ local function ZJTQHRA_fake_script() -- spk.LocalScriptsecondspk
 		local targetPlayer = game:GetService("Players"):FindFirstChild(playerName)
 	
 		if targetPlayer then
-			local targetCharacter = workspace:FindFirstChild(playerName)
+			local targetCharacter = game:GetService("Players"):FindFirstChild(playerName).Character
 			local targetRootPart = targetCharacter and targetCharacter:FindFirstChild("HumanoidRootPart")
 	
 			if targetRootPart then
+				targetRootPart.Anchored = true
 				teleportingPlayers[playerName] = targetRootPart
 			else
 				warn("해당 플레이어의 루트 파트를 찾을 수 없습니다.")
@@ -709,6 +711,7 @@ local function ZJTQHRA_fake_script() -- spk.LocalScriptsecondspk
 	end
 	
 	local function stopTeleport(playerName)
+		teleportingPlayers[playerName].Anchored = false
 		teleportingPlayers[playerName] = nil
 	end
 	
