@@ -658,7 +658,7 @@ local function CWJWTV_fake_script() -- gotoplr.LocalScriptsecondgotop
 				local targetHumanoidRootPart = targetCharacter:FindFirstChild("HumanoidRootPart")
 	
 				if myHumanoidRootPart and targetHumanoidRootPart then
-					myHumanoidRootPart.CFrame = targetHumanoidRootPart.CFrame -- 내 캐릭터의 CFrame을 특정 플레이어의 CFrame으로 설정
+					myHumanoidRootPart.CFrame = CFrame.new(targetHumanoidRootPart.Position + Vector3.new(0, 3, 0))
 				else
 					warn("HumanoidRootPart를 찾을 수 없습니다.")
 				end
