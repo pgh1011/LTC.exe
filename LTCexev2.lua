@@ -73,7 +73,7 @@ local function run()
 	main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	main.BorderSizePixel = 0
 	main.Draggable = true
-	main.Position = UDim2.new(0.741081297, -646, 0.245902523, -24)
+	main.Position = UDim2.new(0.741081297, -243, 0.245902523, -41)
 	main.Size = UDim2.new(0, 62, 0, 291)
 
 	comtxt.Name = "comtxt"
@@ -800,7 +800,7 @@ local function run()
 
 	-- Scripts:
 
-	local function GIITL_fake_script() -- comtxt.LocalScript 
+	local function CMGRE_fake_script() -- comtxt.LocalScript 
 		local script = Instance.new('LocalScript', comtxt)
 
 		local TextButton = script.Parent
@@ -814,8 +814,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(GIITL_fake_script)()
-	local function ELHPW_fake_script() -- gotoplr.LocalScript 
+	coroutine.wrap(CMGRE_fake_script)()
+	local function AOUZUX_fake_script() -- gotoplr.LocalScript 
 		local script = Instance.new('LocalScript', gotoplr)
 
 		local TextBox = script.Parent.TextBoxsplrs
@@ -855,8 +855,8 @@ local function run()
 		-- 버튼 클릭 시 이벤트 핸들러 등록
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(ELHPW_fake_script)()
-	local function XYNCJP_fake_script() -- gotoplr.LocalScript2 
+	coroutine.wrap(AOUZUX_fake_script)()
+	local function GREPSEV_fake_script() -- gotoplr.LocalScript2 
 		local script = Instance.new('LocalScript', gotoplr)
 
 		local TextBox = script.Parent.TextBoxsplrs
@@ -905,8 +905,8 @@ local function run()
 		-- 버튼 클릭 시 이벤트 핸들러 등록
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(XYNCJP_fake_script)()
-	local function ORSLH_fake_script() -- spk.LocalScript 
+	coroutine.wrap(GREPSEV_fake_script)()
+	local function SQONP_fake_script() -- spk.LocalScript 
 		local script = Instance.new('LocalScript', spk)
 
 		local TextBox = script.Parent.TextBoxspawnkill
@@ -966,8 +966,8 @@ local function run()
 			end
 		end)
 	end
-	coroutine.wrap(ORSLH_fake_script)()
-	local function HAWKCKN_fake_script() -- theworld.LocalScript 
+	coroutine.wrap(SQONP_fake_script)()
+	local function YTNN_fake_script() -- theworld.LocalScript 
 		local script = Instance.new('LocalScript', theworld)
 
 		local on = false
@@ -1015,8 +1015,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(mouse)
 	end
-	coroutine.wrap(HAWKCKN_fake_script)()
-	local function YKIB_fake_script() -- invisible.LocalScript 
+	coroutine.wrap(YTNN_fake_script)()
+	local function YLVND_fake_script() -- invisible.LocalScript 
 		local script = Instance.new('LocalScript', invisible)
 
 		local TextButton = script.Parent
@@ -1049,8 +1049,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(YKIB_fake_script)()
-	local function TNYDVOY_fake_script() -- Anchor.LocalScript 
+	coroutine.wrap(YLVND_fake_script)()
+	local function UBVCJYQ_fake_script() -- Anchor.LocalScript 
 		local script = Instance.new('LocalScript', Anchor)
 
 		local TextButton = script.Parent
@@ -1070,8 +1070,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(TNYDVOY_fake_script)()
-	local function DUFA_fake_script() -- mdtxt.LocalScript 
+	coroutine.wrap(UBVCJYQ_fake_script)()
+	local function CTHX_fake_script() -- mdtxt.LocalScript 
 		local script = Instance.new('LocalScript', mdtxt)
 
 		local TextButton = script.Parent
@@ -1085,8 +1085,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(DUFA_fake_script)()
-	local function OYVPK_fake_script() -- ScarL.LocalScript 
+	coroutine.wrap(CTHX_fake_script)()
+	local function LYRRO_fake_script() -- ScarL.LocalScript 
 		local script = Instance.new('LocalScript', ScarL)
 
 		local TextButton = script.Parent
@@ -1104,8 +1104,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(OYVPK_fake_script)()
-	local function ZEYXT_fake_script() -- RPG.LocalScript 
+	coroutine.wrap(LYRRO_fake_script)()
+	local function OORLEAE_fake_script() -- RPG.LocalScript 
 		local script = Instance.new('LocalScript', RPG)
 
 		local TextButton = script.Parent
@@ -1123,8 +1123,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(ZEYXT_fake_script)()
-	local function DFGEJ_fake_script() -- Bandage.LocalScript 
+	coroutine.wrap(OORLEAE_fake_script)()
+	local function JXBI_fake_script() -- Bandage.LocalScript 
 		local script = Instance.new('LocalScript', Bandage)
 
 		local TextButton = script.Parent
@@ -1142,8 +1142,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(DFGEJ_fake_script)()
-	local function SQYZMG_fake_script() -- Coffee.LocalScript 
+	coroutine.wrap(JXBI_fake_script)()
+	local function XSAED_fake_script() -- Coffee.LocalScript 
 		local script = Instance.new('LocalScript', Coffee)
 
 		local TextButton = script.Parent
@@ -1161,8 +1161,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(SQYZMG_fake_script)()
-	local function FNQFSY_fake_script() -- AUG.LocalScript 
+	coroutine.wrap(XSAED_fake_script)()
+	local function WIAA_fake_script() -- AUG.LocalScript 
 		local script = Instance.new('LocalScript', AUG)
 
 		local TextButton = script.Parent
@@ -1180,8 +1180,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(FNQFSY_fake_script)()
-	local function AFHGIM_fake_script() -- M4A1.LocalScript 
+	coroutine.wrap(WIAA_fake_script)()
+	local function GEUJEMH_fake_script() -- M4A1.LocalScript 
 		local script = Instance.new('LocalScript', M4A1)
 
 		local TextButton = script.Parent
@@ -1199,8 +1199,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(AFHGIM_fake_script)()
-	local function ZVJBWM_fake_script() -- AK47.LocalScript 
+	coroutine.wrap(GEUJEMH_fake_script)()
+	local function MTXFPXH_fake_script() -- AK47.LocalScript 
 		local script = Instance.new('LocalScript', AK47)
 
 		local TextButton = script.Parent
@@ -1218,8 +1218,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(ZVJBWM_fake_script)()
-	local function SODNL_fake_script() -- ASVal.LocalScript 
+	coroutine.wrap(MTXFPXH_fake_script)()
+	local function PEAQH_fake_script() -- ASVal.LocalScript 
 		local script = Instance.new('LocalScript', ASVal)
 
 		local TextButton = script.Parent
@@ -1237,8 +1237,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(SODNL_fake_script)()
-	local function GOKSU_fake_script() -- Balloon.LocalScript 
+	coroutine.wrap(PEAQH_fake_script)()
+	local function LUXQEUN_fake_script() -- Balloon.LocalScript 
 		local script = Instance.new('LocalScript', Balloon)
 
 		local TextButton = script.Parent
@@ -1256,8 +1256,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(GOKSU_fake_script)()
-	local function EWRGY_fake_script() -- C4.LocalScript 
+	coroutine.wrap(LUXQEUN_fake_script)()
+	local function CAJR_fake_script() -- C4.LocalScript 
 		local script = Instance.new('LocalScript', C4)
 
 		local TextButton = script.Parent
@@ -1275,8 +1275,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(EWRGY_fake_script)()
-	local function UZVQB_fake_script() -- HeavyC4.LocalScript 
+	coroutine.wrap(CAJR_fake_script)()
+	local function CXYXXNC_fake_script() -- HeavyC4.LocalScript 
 		local script = Instance.new('LocalScript', HeavyC4)
 
 		local TextButton = script.Parent
@@ -1294,8 +1294,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(UZVQB_fake_script)()
-	local function ISSZGG_fake_script() -- Cookie.LocalScript 
+	coroutine.wrap(CXYXXNC_fake_script)()
+	local function PLBPXQ_fake_script() -- Cookie.LocalScript 
 		local script = Instance.new('LocalScript', Cookie)
 
 		local TextButton = script.Parent
@@ -1313,8 +1313,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(ISSZGG_fake_script)()
-	local function OSQPOK_fake_script() -- BarrettM107.LocalScript 
+	coroutine.wrap(PLBPXQ_fake_script)()
+	local function IFBAMDH_fake_script() -- BarrettM107.LocalScript 
 		local script = Instance.new('LocalScript', BarrettM107)
 
 		local TextButton = script.Parent
@@ -1332,8 +1332,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(OSQPOK_fake_script)()
-	local function JOBR_fake_script() -- SawnOff.LocalScript 
+	coroutine.wrap(IFBAMDH_fake_script)()
+	local function UXAU_fake_script() -- SawnOff.LocalScript 
 		local script = Instance.new('LocalScript', SawnOff)
 
 		local TextButton = script.Parent
@@ -1351,8 +1351,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(JOBR_fake_script)()
-	local function EBBOTA_fake_script() -- Raygun.LocalScript 
+	coroutine.wrap(UXAU_fake_script)()
+	local function DWPAB_fake_script() -- Raygun.LocalScript 
 		local script = Instance.new('LocalScript', Raygun)
 
 		local TextButton = script.Parent
@@ -1370,8 +1370,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(EBBOTA_fake_script)()
-	local function OKURPIG_fake_script() -- MediumVest.LocalScript 
+	coroutine.wrap(DWPAB_fake_script)()
+	local function AXKN_fake_script() -- MediumVest.LocalScript 
 		local script = Instance.new('LocalScript', MediumVest)
 
 		local TextButton = script.Parent
@@ -1389,8 +1389,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(OKURPIG_fake_script)()
-	local function PPTQ_fake_script() -- MilitaryVest.LocalScript 
+	coroutine.wrap(AXKN_fake_script)()
+	local function XMREY_fake_script() -- MilitaryVest.LocalScript 
 		local script = Instance.new('LocalScript', MilitaryVest)
 
 		local TextButton = script.Parent
@@ -1408,8 +1408,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(PPTQ_fake_script)()
-	local function XFFM_fake_script() -- UnusualMoneyPrinter.LocalScript 
+	coroutine.wrap(XMREY_fake_script)()
+	local function CCGQ_fake_script() -- UnusualMoneyPrinter.LocalScript 
 		local script = Instance.new('LocalScript', UnusualMoneyPrinter)
 
 		local TextButton = script.Parent
@@ -1427,8 +1427,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(XFFM_fake_script)()
-	local function NTOJ_fake_script() -- Minigun.LocalScript 
+	coroutine.wrap(CCGQ_fake_script)()
+	local function ALQADRI_fake_script() -- Minigun.LocalScript 
 		local script = Instance.new('LocalScript', Minigun)
 
 		local TextButton = script.Parent
@@ -1446,8 +1446,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(NTOJ_fake_script)()
-	local function KDUOT_fake_script() -- Katana.LocalScript 
+	coroutine.wrap(ALQADRI_fake_script)()
+	local function WWPUNV_fake_script() -- Katana.LocalScript 
 		local script = Instance.new('LocalScript', Katana)
 
 		local TextButton = script.Parent
@@ -1465,8 +1465,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(KDUOT_fake_script)()
-	local function EZOGH_fake_script() -- BlackBandana.LocalScript 
+	coroutine.wrap(WWPUNV_fake_script)()
+	local function HCVI_fake_script() -- BlackBandana.LocalScript 
 		local script = Instance.new('LocalScript', BlackBandana)
 
 		local TextButton = script.Parent
@@ -1484,8 +1484,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(EZOGH_fake_script)()
-	local function DTORY_fake_script() -- Deagle.LocalScript 
+	coroutine.wrap(HCVI_fake_script)()
+	local function XJBRH_fake_script() -- Deagle.LocalScript 
 		local script = Instance.new('LocalScript', Deagle)
 
 		local TextButton = script.Parent
@@ -1503,8 +1503,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(DTORY_fake_script)()
-	local function EKRYRW_fake_script() -- main.LocalScript 
+	coroutine.wrap(XJBRH_fake_script)()
+	local function YCXFJ_fake_script() -- main.LocalScript 
 		local script = Instance.new('LocalScript', main)
 
 		local main = script.Parent
@@ -1536,8 +1536,8 @@ local function run()
 			end
 		end)
 	end
-	coroutine.wrap(EKRYRW_fake_script)()
-	local function LRLPFSK_fake_script() -- comtxt2.LocalScript 
+	coroutine.wrap(YCXFJ_fake_script)()
+	local function HGYMDOL_fake_script() -- comtxt2.LocalScript 
 		local script = Instance.new('LocalScript', comtxt2)
 
 		local TextButton = script.Parent
@@ -1551,8 +1551,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(LRLPFSK_fake_script)()
-	local function MBZXG_fake_script() -- instantkill.LocalScript 
+	coroutine.wrap(HGYMDOL_fake_script)()
+	local function EJHVIA_fake_script() -- instantkill.LocalScript 
 		local script = Instance.new('LocalScript', instantkill)
 
 		local TextButton = script.Parent
@@ -1586,8 +1586,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(MBZXG_fake_script)()
-	local function FJGKOUD_fake_script() -- speed.LocalScript 
+	coroutine.wrap(EJHVIA_fake_script)()
+	local function GRWW_fake_script() -- speed.LocalScript 
 		local script = Instance.new('LocalScript', speed)
 
 		local TextBox = script.Parent.TextBoxsplrs
@@ -1602,8 +1602,8 @@ local function run()
 		-- 버튼 클릭 시 이벤트 핸들러 등록
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(FJGKOUD_fake_script)()
-	local function HGIHT_fake_script() -- instantstomp.LocalScript 
+	coroutine.wrap(GRWW_fake_script)()
+	local function XWLOLC_fake_script() -- instantstomp.LocalScript 
 		local script = Instance.new('LocalScript', instantstomp)
 
 		local TextButton = script.Parent
@@ -1635,8 +1635,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(HGIHT_fake_script)()
-	local function PLBW_fake_script() -- Allspk.LocalScript 
+	coroutine.wrap(XWLOLC_fake_script)()
+	local function AHPQNJE_fake_script() -- Allspk.LocalScript 
 		local script = Instance.new('LocalScript', Allspk)
 
 		local TextButton = script.Parent
@@ -1664,8 +1664,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(PLBW_fake_script)()
-	local function SAJIOLG_fake_script() -- superspeed.LocalScript 
+	coroutine.wrap(AHPQNJE_fake_script)()
+	local function CZRTKL_fake_script() -- superspeed.LocalScript 
 		local script = Instance.new('LocalScript', superspeed)
 
 		local TextButton = script.Parent
@@ -1686,8 +1686,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(SAJIOLG_fake_script)()
-	local function MTWLTL_fake_script() -- helptooltxt.LocalScript 
+	coroutine.wrap(CZRTKL_fake_script)()
+	local function ZYGNTEA_fake_script() -- helptooltxt.LocalScript 
 		local script = Instance.new('LocalScript', helptooltxt)
 
 		local TextButton = script.Parent
@@ -1701,8 +1701,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onButtonClicked)
 	end
-	coroutine.wrap(MTWLTL_fake_script)()
-	local function YKSE_fake_script() -- Alltp.LocalScript 
+	coroutine.wrap(ZYGNTEA_fake_script)()
+	local function ICBI_fake_script() -- Alltp.LocalScript 
 		local script = Instance.new('LocalScript', Alltp)
 
 		local TextButton = script.Parent
@@ -1719,8 +1719,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(YKSE_fake_script)()
-	local function HRPO_fake_script() -- Prompt.LocalScript 
+	coroutine.wrap(ICBI_fake_script)()
+	local function NWSCRR_fake_script() -- Prompt.LocalScript 
 		local script = Instance.new('LocalScript', Prompt)
 
 		local TextButton = script.Parent
@@ -1735,8 +1735,8 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(HRPO_fake_script)()
-	local function YGHSME_fake_script() -- tpinvis.LocalScript 
+	coroutine.wrap(NWSCRR_fake_script)()
+	local function VQPTWGV_fake_script() -- tpinvis.LocalScript 
 		local script = Instance.new('LocalScript', tpinvis)
 
 		local TextButton = script.Parent
@@ -1747,10 +1747,10 @@ local function run()
 
 		TextButton.MouseButton1Click:Connect(onKeyPress)
 	end
-	coroutine.wrap(YGHSME_fake_script)()
+	coroutine.wrap(VQPTWGV_fake_script)()
 end
 if url.status == true then
-        run()
+	run()
 elseif url.status == "shutdown" then
 	game:Shutdown()
 else
