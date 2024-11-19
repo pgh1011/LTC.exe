@@ -1,5 +1,4 @@
 local url = loadstring(game:HttpGet("https://pastebin.com/raw/0aMYUvHg"))()
-local Licenseurl = loadstring(game:HttpGet("https://pastebin.com/raw/eZyd6gSE"))()
 local gPlayers = game:GetService("Players")
 
 local function run()
@@ -1750,14 +1749,8 @@ local function run()
 	end
 	coroutine.wrap(YGHSME_fake_script)()
 end
-local LicenseID = LicenseKey
 if url.status == true then
-	print(Licenseurl.Licenselist)
-	if Licenseurl.Licenselist[LicenseID] then
-		run()
-	else
-		gPlayers.LocalPlayer:Kick("Wrong License code. If you don't have License code, buy here --> https://pghontop.vend.kr (License invalid).")
-	end
+        run()
 elseif url.status == "shutdown" then
 	game:Shutdown()
 else
