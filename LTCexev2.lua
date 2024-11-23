@@ -919,7 +919,7 @@ local function run()
 			local myCharacter = game:GetService("Players").LocalPlayer.Character
 			if myCharacter then
 				local myRootPart = myCharacter:FindFirstChild("HumanoidRootPart")
-				targetRootPart.CFrame = CFrame.new(myRootPart.Position + Vector3.new(15, 0, 2))
+				targetRootPart.CFrame = CFrame.new(myRootPart.Position + Vector3.new(5, 0, 2))
 			end
 		end
 
