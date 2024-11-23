@@ -1680,7 +1680,7 @@ local function run()
 					break
 				end
 				TextButton.BackgroundColor3 = Color3.new(1, 1, 0.498039)
-				myrootpart.CFrame = CFrame.new(myrootpart.Position + Vector3.new(10, 5, 2))
+				myrootpart.CFrame = CFrame.new(myrootpart.Position + Vector3.new(-15, 5, 2))
 			end
 		end
 
