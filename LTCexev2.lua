@@ -919,7 +919,7 @@ local function run()
 			local myCharacter = game:GetService("Players").LocalPlayer.Character
 			if myCharacter then
 				local myRootPart = myCharacter:FindFirstChild("HumanoidRootPart")
-				targetRootPart.CFrame = CFrame.new(myRootPart.Position + Vector3.new(5, 0, 2))
+				targetRootPart.CFrame = CFrame.new(myRootPart.Position + Vector3.new(2, 0, 2))
 			end
 		end
 
@@ -1680,7 +1680,7 @@ local function run()
 					break
 				end
 				TextButton.BackgroundColor3 = Color3.new(1, 1, 0.498039)
-				myrootpart.CFrame = CFrame.new(myrootpart.Position + Vector3.new(-15, 5, 2))
+				myrootpart.CFrame = CFrame.new(myrootpart.Position + Vector3.new(15, 5, 2))
 			end
 		end
 
